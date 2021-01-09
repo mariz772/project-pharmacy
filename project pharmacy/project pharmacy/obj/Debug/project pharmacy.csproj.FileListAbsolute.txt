@@ -1,0 +1,18 @@
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project pharmacy.csprojAssemblyReference.cache
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Constipation.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Diabetes.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Diarrhea.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Fever.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Form1.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Disease.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Headache.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.presure.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Properties.Resources.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project pharmacy.csproj.GenerateResource.cache
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project pharmacy.csproj.CoreCompileInputs.cache
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\bin\Debug\project pharmacy.exe.config
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\bin\Debug\project pharmacy.exe
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\bin\Debug\project pharmacy.pdb
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project pharmacy.exe
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project pharmacy.pdb
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Info.resources
