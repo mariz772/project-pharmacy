@@ -57,6 +57,7 @@ namespace project_pharmacy
             this.textBox1.Location = new System.Drawing.Point(12, 185);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(349, 109);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "\r\n Address : Al Shorok city\r\nPhone Number : 574838266";
@@ -91,13 +92,14 @@ namespace project_pharmacy
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Location = new System.Drawing.Point(362, 153);
+            this.textBox2.Location = new System.Drawing.Point(378, 153);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(337, 155);
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(368, 167);
             this.textBox2.TabIndex = 4;
-            this.textBox2.Text = " headache , Contipation , Fever ,  presure , diabetes , Diarrhea\r\nyou can also fi" +
-    "nd some cosmetics for hair & skin\r\n";
+            this.textBox2.Text = " headache , Constipation , Fever ,  pres\r\nsure , diabetes , Diarrhea\r\nyou can als" +
+    "o find some cosmetics for hair & skin\r\n";
             // 
             // label3
             // 
@@ -126,9 +128,9 @@ namespace project_pharmacy
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(795, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(837, 66);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(366, 497);
+            this.pictureBox1.Size = new System.Drawing.Size(324, 380);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
@@ -161,7 +163,7 @@ namespace project_pharmacy
             this.button6.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(422, 445);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(189, 106);
+            this.button6.Size = new System.Drawing.Size(196, 106);
             this.button6.TabIndex = 17;
             this.button6.Text = "Diarrhea";
             this.button6.UseVisualStyleBackColor = true;
@@ -173,7 +175,7 @@ namespace project_pharmacy
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(504, 338);
+            this.button5.Location = new System.Drawing.Point(566, 338);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(195, 101);
             this.button5.TabIndex = 16;
@@ -187,11 +189,11 @@ namespace project_pharmacy
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(21, 278);
+            this.button4.Location = new System.Drawing.Point(814, 455);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(206, 83);
+            this.button4.Size = new System.Drawing.Size(224, 96);
             this.button4.TabIndex = 15;
-            this.button4.Text = " presure";
+            this.button4.Text = " pressure";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -202,7 +204,7 @@ namespace project_pharmacy
             this.button3.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(617, 461);
+            this.button3.Location = new System.Drawing.Point(626, 455);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(163, 90);
             this.button3.TabIndex = 14;
@@ -216,9 +218,9 @@ namespace project_pharmacy
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(233, 343);
+            this.button2.Location = new System.Drawing.Point(249, 338);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(257, 102);
+            this.button2.Size = new System.Drawing.Size(284, 102);
             this.button2.TabIndex = 13;
             this.button2.Text = "constipation";
             this.button2.UseVisualStyleBackColor = true;
@@ -229,9 +231,9 @@ namespace project_pharmacy
             this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button7.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(21, 368);
+            this.button7.Location = new System.Drawing.Point(12, 338);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(206, 78);
+            this.button7.Size = new System.Drawing.Size(215, 108);
             this.button7.TabIndex = 12;
             this.button7.Text = "headache";
             this.button7.UseVisualStyleBackColor = true;

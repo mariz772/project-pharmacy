@@ -45,6 +45,7 @@ namespace project_pharmacy
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -102,16 +103,20 @@ namespace project_pharmacy
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(206, 258);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(100, 34);
             this.textBox2.TabIndex = 7;
+            this.textBox2.Text = "0";
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(206, 319);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(100, 34);
             this.textBox3.TabIndex = 8;
+            this.textBox3.Text = "0";
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // button1
@@ -170,33 +175,35 @@ namespace project_pharmacy
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(327, 181);
+            this.button4.Location = new System.Drawing.Point(312, 181);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(91, 46);
+            this.button4.Size = new System.Drawing.Size(123, 46);
             this.button4.TabIndex = 17;
-            this.button4.Text = "sale";
+            this.button4.Text = "22 LE";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(137, 181);
+            this.button5.Location = new System.Drawing.Point(102, 181);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(91, 46);
+            this.button5.Size = new System.Drawing.Size(146, 46);
             this.button5.TabIndex = 18;
-            this.button5.Text = "sale";
+            this.button5.Text = "20 LE";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(522, 181);
+            this.button6.Location = new System.Drawing.Point(486, 181);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(91, 46);
+            this.button6.Size = new System.Drawing.Size(153, 46);
             this.button6.TabIndex = 19;
-            this.button6.Text = "sale";
+            this.button6.Text = "32 LE";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // pictureBox4
             // 
@@ -208,12 +215,25 @@ namespace project_pharmacy
             this.pictureBox4.TabIndex = 20;
             this.pictureBox4.TabStop = false;
             // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(349, 379);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(107, 44);
+            this.button9.TabIndex = 39;
+            this.button9.Text = "Total";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // Fever
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -256,5 +276,6 @@ namespace project_pharmacy
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button button9;
     }
 }

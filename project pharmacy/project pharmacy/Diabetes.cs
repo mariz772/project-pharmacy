@@ -16,7 +16,7 @@ namespace project_pharmacy
         {
             InitializeComponent();
         }
-
+        int x, y, z, n = 0;
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -57,6 +57,45 @@ namespace project_pharmacy
             Info frm = new Info();
             frm.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "0";
+            textBox3.Text = "0";
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            z =25;
+            int qu = int.Parse(textBox2.Text);
+            textBox2.Text = Convert.ToString(qu + 1);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            textBox3.Text = Convert.ToString(x + y + z + n);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            x = 33;
+            int qu = int.Parse(textBox2.Text);
+            textBox2.Text = Convert.ToString(qu + 1);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            y= 40;
+            int qu = int.Parse(textBox2.Text);
+            textBox2.Text = Convert.ToString(qu + 1);
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            n = 50;
+            int qu = int.Parse(textBox2.Text);
+            textBox2.Text = Convert.ToString(qu + 1);
         }
     }
 }

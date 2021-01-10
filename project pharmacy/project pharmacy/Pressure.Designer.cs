@@ -1,7 +1,7 @@
 ﻿
 namespace project_pharmacy
 {
-    partial class Diarrhea
+    partial class Pressure
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace project_pharmacy
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Diarrhea));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pressure));
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -59,28 +59,27 @@ namespace project_pharmacy
             this.pictureBox4.Location = new System.Drawing.Point(562, 232);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(236, 154);
-            this.pictureBox4.TabIndex = 50;
+            this.pictureBox4.TabIndex = 35;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(475, 180);
+            this.button6.Location = new System.Drawing.Point(506, 180);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(138, 46);
-            this.button6.TabIndex = 49;
-            this.button6.Text = "35 LE";
+            this.button6.Size = new System.Drawing.Size(117, 46);
+            this.button6.TabIndex = 34;
+            this.button6.Text = "90 LE";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(93, 180);
+            this.button5.Location = new System.Drawing.Point(115, 180);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(175, 46);
-            this.button5.TabIndex = 48;
+            this.button5.Size = new System.Drawing.Size(120, 46);
+            this.button5.TabIndex = 33;
             this.button5.Text = "19 LE";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -88,11 +87,11 @@ namespace project_pharmacy
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(300, 180);
+            this.button4.Location = new System.Drawing.Point(305, 180);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(146, 46);
-            this.button4.TabIndex = 47;
-            this.button4.Text = "29 LE ";
+            this.button4.Size = new System.Drawing.Size(113, 46);
+            this.button4.TabIndex = 32;
+            this.button4.Text = "50 LE";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -103,7 +102,7 @@ namespace project_pharmacy
             this.button7.Location = new System.Drawing.Point(679, 392);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(119, 57);
-            this.button7.TabIndex = 46;
+            this.button7.TabIndex = 31;
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -111,40 +110,41 @@ namespace project_pharmacy
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(300, 21);
+            this.pictureBox3.Location = new System.Drawing.Point(102, 84);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(146, 142);
-            this.pictureBox3.TabIndex = 45;
+            this.pictureBox3.Size = new System.Drawing.Size(146, 79);
+            this.pictureBox3.TabIndex = 30;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(93, 84);
+            this.pictureBox2.Location = new System.Drawing.Point(277, 84);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(175, 79);
-            this.pictureBox2.TabIndex = 44;
+            this.pictureBox2.TabIndex = 29;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(475, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(475, 84);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(138, 142);
-            this.pictureBox1.TabIndex = 43;
+            this.pictureBox1.Size = new System.Drawing.Size(164, 79);
+            this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(219, 378);
+            this.button1.Location = new System.Drawing.Point(227, 392);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 44);
-            this.button1.TabIndex = 42;
+            this.button1.TabIndex = 27;
             this.button1.Text = "Clear";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -156,7 +156,7 @@ namespace project_pharmacy
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(100, 34);
-            this.textBox3.TabIndex = 41;
+            this.textBox3.TabIndex = 26;
             this.textBox3.Text = "0";
             // 
             // textBox2
@@ -166,7 +166,7 @@ namespace project_pharmacy
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(100, 34);
-            this.textBox2.TabIndex = 40;
+            this.textBox2.TabIndex = 25;
             this.textBox2.Text = "0";
             // 
             // label3
@@ -177,7 +177,7 @@ namespace project_pharmacy
             this.label3.Location = new System.Drawing.Point(59, 311);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 29);
-            this.label3.TabIndex = 39;
+            this.label3.TabIndex = 24;
             this.label3.Text = "price";
             // 
             // label2
@@ -188,7 +188,7 @@ namespace project_pharmacy
             this.label2.Location = new System.Drawing.Point(59, 257);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 29);
-            this.label2.TabIndex = 38;
+            this.label2.TabIndex = 23;
             this.label2.Text = "Quantity";
             // 
             // button3
@@ -198,7 +198,7 @@ namespace project_pharmacy
             this.button3.Location = new System.Drawing.Point(633, 1);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(165, 77);
-            this.button3.TabIndex = 37;
+            this.button3.TabIndex = 22;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -211,7 +211,7 @@ namespace project_pharmacy
             this.button2.Location = new System.Drawing.Point(2, 1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(165, 77);
-            this.button2.TabIndex = 36;
+            this.button2.TabIndex = 21;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -219,15 +219,15 @@ namespace project_pharmacy
             // 
             this.button8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(358, 378);
+            this.button8.Location = new System.Drawing.Point(382, 392);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(102, 42);
-            this.button8.TabIndex = 51;
+            this.button8.TabIndex = 36;
             this.button8.Text = "Total";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // Diarrhea
+            // Pressure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -249,8 +249,8 @@ namespace project_pharmacy
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Name = "Diarrhea";
-            this.Text = "Diarrhea";
+            this.Name = "Pressure";
+            this.Text = "presure";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

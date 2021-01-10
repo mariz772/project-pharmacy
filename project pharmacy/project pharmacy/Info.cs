@@ -34,7 +34,7 @@ namespace project_pharmacy
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Presure frm = new Presure();
+            Pressure frm = new Pressure();
             frm.Show();
             this.Hide();
         }

@@ -50,7 +50,7 @@ namespace project_pharmacy
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            Presure frm = new Presure();
+            Pressure frm = new Pressure();
             frm.Show();
             this.Hide();
         }
@@ -86,6 +86,13 @@ namespace project_pharmacy
         private void button10_Click(object sender, EventArgs e)
         {
             p_skin frm = new p_skin();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            p_hair frm = new p_hair();
             frm.Show();
             this.Hide();
         }

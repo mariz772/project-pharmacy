@@ -6,7 +6,6 @@ C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_
 C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Form1.resources
 C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Disease.resources
 C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Headache.resources
-C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.presure.resources
 C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Properties.Resources.resources
 C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project pharmacy.csproj.GenerateResource.cache
 C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project pharmacy.csproj.CoreCompileInputs.cache
@@ -16,3 +15,6 @@ C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\bin\Debug\project 
 C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project pharmacy.exe
 C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project pharmacy.pdb
 C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Info.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.p_hair.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.p_skin.resources
+C:\Users\Mariz\source\repos\project pharmacy\project pharmacy\obj\Debug\project_pharmacy.Pressure.resources

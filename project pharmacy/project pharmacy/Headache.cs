@@ -17,7 +17,7 @@ namespace project_pharmacy
             InitializeComponent();
         }
 
-     
+        int x, y, z ,n = 0;
 
         private void button2_Click_1(object sender, EventArgs e)
         {
@@ -55,40 +55,42 @@ namespace project_pharmacy
 
         private void button4_Click(object sender, EventArgs e)
         {
-
-            int x = int.Parse(textBox2.Text);
-            textBox2.Text = Convert.ToString(x + 1);
-            textBox3.Text = Convert.ToString((x + 1) * 17);
+            z = 17;
+            int qu = int.Parse(textBox2.Text);
+            textBox2.Text = Convert.ToString(qu + 1);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
 
-            int y = int.Parse(textBox2.Text);
-            textBox2.Text = Convert.ToString(y + 1);
-            textBox3.Text = Convert.ToString((y + 1) * 20);
+            y = 20;
+            int qu = int.Parse(textBox2.Text);
+            textBox2.Text = Convert.ToString(qu + 1);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            textBox3.Text = Convert.ToString(x + y + z +n);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-
-            int z = int.Parse(textBox2.Text);
-            textBox2.Text = Convert.ToString(z + 1);
-            textBox3.Text = Convert.ToString((z + 1) * 25);
+            x = 25;
+            int qu = int.Parse(textBox2.Text);
+            textBox2.Text = Convert.ToString(qu + 1);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
-            int n = int.Parse(textBox2.Text);
-            textBox2.Text = Convert.ToString(n + 1);
-            textBox3.Text = Convert.ToString((n + 1) * 30);
+            n = 30;
+            int qu = int.Parse(textBox2.Text);
+            textBox2.Text = Convert.ToString(qu + 1);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            textBox2.Clear();
-            textBox3.Clear();
+            textBox2.Text="0";
+            textBox3.Text = "0";
 
         }
     }

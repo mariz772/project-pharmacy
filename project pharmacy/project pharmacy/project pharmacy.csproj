@@ -94,11 +94,11 @@
     <Compile Include="Info.Designer.cs">
       <DependentUpon>Info.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presure.cs">
+    <Compile Include="Pressure.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presure.Designer.cs">
-      <DependentUpon>Presure.cs</DependentUpon>
+    <Compile Include="Pressure.Designer.cs">
+      <DependentUpon>Pressure.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -138,8 +138,8 @@
     <EmbeddedResource Include="Info.resx">
       <DependentUpon>Info.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presure.resx">
-      <DependentUpon>Presure.cs</DependentUpon>
+    <EmbeddedResource Include="Pressure.resx">
+      <DependentUpon>Pressure.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

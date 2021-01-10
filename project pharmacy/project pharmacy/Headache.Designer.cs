@@ -47,6 +47,7 @@ namespace project_pharmacy
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -81,6 +82,7 @@ namespace project_pharmacy
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(233, 309);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(100, 38);
             this.textBox2.TabIndex = 4;
             this.textBox2.Text = "0";
@@ -91,6 +93,7 @@ namespace project_pharmacy
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(233, 377);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(100, 38);
             this.textBox3.TabIndex = 5;
             this.textBox3.Text = "0";
@@ -135,44 +138,44 @@ namespace project_pharmacy
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(37, 193);
+            this.button4.Location = new System.Drawing.Point(26, 193);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(91, 46);
+            this.button4.Size = new System.Drawing.Size(133, 46);
             this.button4.TabIndex = 11;
-            this.button4.Text = "sale";
+            this.button4.Text = "17 LE";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(211, 193);
+            this.button5.Location = new System.Drawing.Point(176, 193);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(92, 46);
+            this.button5.Size = new System.Drawing.Size(157, 46);
             this.button5.TabIndex = 12;
-            this.button5.Text = "sale";
+            this.button5.Text = "20 LE";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(390, 193);
+            this.button6.Location = new System.Drawing.Point(339, 193);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(97, 46);
+            this.button6.Size = new System.Drawing.Size(196, 46);
             this.button6.TabIndex = 13;
-            this.button6.Text = "sale";
+            this.button6.Text = "25 LE";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(559, 193);
+            this.button7.Location = new System.Drawing.Point(541, 193);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(105, 46);
+            this.button7.Size = new System.Drawing.Size(148, 46);
             this.button7.TabIndex = 14;
-            this.button7.Text = "sale";
+            this.button7.Text = "30 LE";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -238,12 +241,25 @@ namespace project_pharmacy
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(361, 459);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(98, 37);
+            this.button9.TabIndex = 37;
+            this.button9.Text = "Total";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // Headache
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 521);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -292,5 +308,6 @@ namespace project_pharmacy
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }

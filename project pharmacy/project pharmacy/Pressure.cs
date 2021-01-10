@@ -10,13 +10,15 @@ using System.Windows.Forms;
 
 namespace project_pharmacy
 {
-    public partial class Fever : Form
+    public partial class Pressure : Form
     {
-        public Fever()
+        public Pressure()
         {
             InitializeComponent();
         }
         int x, y, z = 0;
+
+        
         private void button2_Click_1(object sender, EventArgs e)
         {
             Disease frm = new Disease();
@@ -24,55 +26,57 @@ namespace project_pharmacy
             this.Hide();
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button7_Click(object sender, EventArgs e)
         {
-
             Info frm = new Info();
             frm.Show();
             this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             textBox2.Text = "0";
             textBox3.Text = "0";
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-
-            y = 22;
+            z = 19;
             int qu = int.Parse(textBox2.Text);
             textBox2.Text = Convert.ToString(qu + 1);
+            
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
         {
             textBox3.Text = Convert.ToString(x + y + z);
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            z = 20;
+            y = 50;
             int qu = int.Parse(textBox2.Text);
             textBox2.Text = Convert.ToString(qu + 1);
+           
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            x = 32;
+            x = 90;
             int qu = int.Parse(textBox2.Text);
             textBox2.Text = Convert.ToString(qu + 1);
+            
+
         }
     }
 }

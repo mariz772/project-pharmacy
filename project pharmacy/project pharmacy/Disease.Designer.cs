@@ -48,9 +48,9 @@ namespace project_pharmacy
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 175);
+            this.button1.Location = new System.Drawing.Point(3, 182);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(234, 78);
+            this.button1.Size = new System.Drawing.Size(255, 122);
             this.button1.TabIndex = 0;
             this.button1.Text = "headache";
             this.button1.UseVisualStyleBackColor = true;
@@ -62,9 +62,9 @@ namespace project_pharmacy
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(252, 188);
+            this.button2.Location = new System.Drawing.Point(265, 188);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(287, 103);
+            this.button2.Size = new System.Drawing.Size(317, 116);
             this.button2.TabIndex = 1;
             this.button2.Text = "constipation";
             this.button2.UseVisualStyleBackColor = true;
@@ -77,9 +77,9 @@ namespace project_pharmacy
             this.button3.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(579, 200);
+            this.button3.Location = new System.Drawing.Point(588, 188);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(163, 91);
+            this.button3.Size = new System.Drawing.Size(209, 111);
             this.button3.TabIndex = 2;
             this.button3.Text = " Fever";
             this.button3.UseVisualStyleBackColor = true;
@@ -91,11 +91,11 @@ namespace project_pharmacy
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(30, 76);
+            this.button4.Location = new System.Drawing.Point(9, 71);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(216, 93);
+            this.button4.Size = new System.Drawing.Size(249, 110);
             this.button4.TabIndex = 3;
-            this.button4.Text = " presure";
+            this.button4.Text = " pressure";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
@@ -105,9 +105,9 @@ namespace project_pharmacy
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(277, 76);
+            this.button5.Location = new System.Drawing.Point(277, 72);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(226, 106);
+            this.button5.Size = new System.Drawing.Size(268, 110);
             this.button5.TabIndex = 4;
             this.button5.Text = "diabetes";
             this.button5.UseVisualStyleBackColor = true;
@@ -118,9 +118,9 @@ namespace project_pharmacy
             this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(545, 76);
+            this.button6.Location = new System.Drawing.Point(563, 61);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(230, 116);
+            this.button6.Size = new System.Drawing.Size(234, 120);
             this.button6.TabIndex = 5;
             this.button6.Text = "Diarrhea";
             this.button6.UseVisualStyleBackColor = true;
@@ -164,9 +164,9 @@ namespace project_pharmacy
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(12, 344);
+            this.button10.Location = new System.Drawing.Point(20, 340);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(234, 94);
+            this.button10.Size = new System.Drawing.Size(238, 98);
             this.button10.TabIndex = 10;
             this.button10.Text = "Product for skin";
             this.button10.UseVisualStyleBackColor = true;
@@ -175,12 +175,13 @@ namespace project_pharmacy
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(277, 344);
+            this.button11.Location = new System.Drawing.Point(277, 340);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(183, 94);
+            this.button11.Size = new System.Drawing.Size(187, 98);
             this.button11.TabIndex = 11;
             this.button11.Text = "Product for hair";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Disease
             // 
